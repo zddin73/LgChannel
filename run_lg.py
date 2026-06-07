@@ -106,7 +106,7 @@ def main():
     programs = scraper.fetch_epg(channels)
 
     # Output to files
-    generate_m3u(channels, "lg.m3u")
+    generate_m3u(channels, "lg_playlist.m3u")
     generate_xmltv(channels, programs, "lg.xml")
 
 if __name__ == "__main__":
