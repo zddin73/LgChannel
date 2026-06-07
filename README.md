@@ -1,1 +1,1 @@
-# LgChannel
+Credits to kineticman github
