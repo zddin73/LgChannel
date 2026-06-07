@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from xml.dom import minidom
-from lg_channel_scraper import LGChannelsScraper  # Replace with your actual filename
+from lg_scraper import LGChannelsScraper  # Replace with your actual filename
 
 def generate_m3u(channels, filename="lg_playlist.m3u"):
     """Generates an M3U8/M3U playlist from channel data."""
