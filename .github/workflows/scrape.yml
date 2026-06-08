@@ -1,7 +1,7 @@
 name: Update LG Playlist
 on:
   schedule:
-    - cron: '0 */6 * * *' # Every 6 hours
+    - cron: '25 2/6 * * *' # Every 6 hours
   workflow_dispatch: # Manual trigger
 
 jobs:
