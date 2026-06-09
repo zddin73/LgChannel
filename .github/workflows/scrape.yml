@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-python-version: '3.11'
+          python-version: '3.11'
           cache: 'pip' # Optional: Speeds up subsequent workflow runs
 
       - name: Install dependencies
