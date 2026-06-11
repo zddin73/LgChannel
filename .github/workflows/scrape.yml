@@ -1,9 +1,9 @@
 name: Update LG Channels
 
 on:
-  schedule:
+#  schedule:
     # Runs at 03:20, 09:20, 15:20, 21:20 UTC every day
-    - cron: '20 3,9,15,21 * * *'
+#    - cron: '20 3,9,15,21 * * *'
   workflow_dispatch: # Allows you to run the workflow manually from the GitHub UI
 
 jobs:
